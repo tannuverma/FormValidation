@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(4, 4, 4);
+    flex-direction: column;
+}
+h1{
+    position: relative;
+    color: yellow;
+    margin-top: -1rem;
+}
+#form label{
+    color: rgb(186, 10, 75);
+    font-weight: bolder;
+}
+#form{
+    margin-top: 1rem;
+    position: relative;
+    left: 11vw;
+}
+#email, #username, #password, #confirmpassword{
+    width: 70vh;
+    background: #f3eded;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.7rem;
+    color: black;
+}
+
+button{
+    margin-top: 0.3rem;
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    background: yellow;
+    color: black;
+    border-color: red;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+}
